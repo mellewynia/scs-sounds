@@ -1,0 +1,3 @@
+# Configuration of the transmission sounds for the specific truck.
+	sounds:4
+	sounds[]: "air_gear|/def/vehicle/truck/daf.xf/transmission/air_gear.soundref"
