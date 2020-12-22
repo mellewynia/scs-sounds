@@ -101,6 +101,12 @@
 		<property name="length">
 			<value>5.9014058956916102</value>
 		</property>
+		<property name="name">
+			<value>inside</value>
+		</property>
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
@@ -160,10 +166,10 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>10</value>
+			<value>46</value>
 		</property>
 		<property name="minimumExtent">
-			<value>16</value>
+			<value>304</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{af0a9e0e-ede0-449d-a334-5abb37604b3c}" />
