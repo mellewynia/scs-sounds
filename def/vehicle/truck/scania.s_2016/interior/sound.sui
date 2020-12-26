@@ -1,0 +1,11 @@
+# Configuration of the interior sounds for the specific truck interior.
+# If you need override any sound of the interior you need add string "sound_name|sound_id" to the 'sounds' array.
+#
+# The 'sound_id' parameter must be one of:
+# "" (empty string) or ("-") means 'none' sound
+# "[filename].soundref" configuration file of the sound
+# "[bank filename]#[event name]" id of the sound 
+#
+	sounds:2
+	sounds[]: "blinker_off|/def/vehicle/truck/scania.s_2016/interior/blinker_off.soundref"
+	sounds[]: "blinker_on|/def/vehicle/truck/scania.s_2016/interior/blinker_on.soundref"

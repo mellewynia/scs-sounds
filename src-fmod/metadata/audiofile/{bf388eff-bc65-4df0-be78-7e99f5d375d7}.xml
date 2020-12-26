@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{bf388eff-bc65-4df0-be78-7e99f5d375d7}">
+		<property name="assetPath">
+			<value>blinker_on.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.10002083333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6823c597-5285-4eea-92e9-487338792da0}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{de591875-65da-40c2-b7db-34357d7fbd22}">
+		<property name="assetPath">
+			<value>scania_exhaust_1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>5.6975833333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6823c597-5285-4eea-92e9-487338792da0}</destination>
+		</relationship>
+	</object>
+</objects>

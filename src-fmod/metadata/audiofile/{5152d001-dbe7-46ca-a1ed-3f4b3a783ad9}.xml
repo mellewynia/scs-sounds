@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{5152d001-dbe7-46ca-a1ed-3f4b3a783ad9}">
+		<property name="assetPath">
+			<value>engine/nofuel_5.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>4.4458730158730155</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6823c597-5285-4eea-92e9-487338792da0}</destination>
+		</relationship>
+	</object>
+</objects>

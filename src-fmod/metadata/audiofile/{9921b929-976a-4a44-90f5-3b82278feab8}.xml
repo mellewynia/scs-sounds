@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{9921b929-976a-4a44-90f5-3b82278feab8}">
+		<property name="assetPath">
+			<value>engine/unloaded_3.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>7.3013832199546487</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6823c597-5285-4eea-92e9-487338792da0}</destination>
+		</relationship>
+	</object>
+</objects>

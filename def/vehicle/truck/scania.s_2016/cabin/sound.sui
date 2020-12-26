@@ -1,0 +1,4 @@
+# Configuration of the sounds for the specific truck.
+	sounds:2
+	sounds[]: "horn|/def/vehicle/truck/scania.s_2016/cabin/sound_horn.soundref"
+	sounds[]: "aero_noise|/def/vehicle/truck/scania.s_2016/cabin/aero_noise.soundref"
