@@ -80,6 +80,7 @@
 			<destination>{6bae5c6b-6e52-4001-a33f-ecf261252c01}</destination>
 			<destination>{3cb31fb5-7444-40e8-86a6-703703d5916d}</destination>
 			<destination>{4f917e24-b052-4737-9a7b-01caaa361b4d}</destination>
+			<destination>{5f8088c1-9abd-4b0e-a7ad-950a57c1c079}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{311def55-3782-4c01-8f05-6457f652ec91}</destination>
@@ -110,6 +111,9 @@
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{2a1a40cf-f919-479c-a6c8-54c22e446a90}">
+		<relationship name="modules">
+			<destination>{5f8088c1-9abd-4b0e-a7ad-950a57c1c079}</destination>
+		</relationship>
 		<relationship name="preset">
 			<destination>{56845a96-2458-450e-a54a-8f2f30d6717e}</destination>
 		</relationship>
@@ -217,6 +221,26 @@
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{de800dcc-d3d5-458e-bfa6-d081ee25118a}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{5f8088c1-9abd-4b0e-a7ad-950a57c1c079}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="volume">
+			<value>3.5</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{4e7f8510-5aea-4999-9042-2955327df9f7}</destination>
+		</relationship>
+		<relationship name="fadeInCurve">
+			<destination>{cf1699c6-2f5f-45c3-8e8a-1d79378fb86f}</destination>
+		</relationship>
+		<relationship name="audioFile">
+			<destination>{a19391a1-2a72-4d99-85e1-12a4a97ec2d3}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{311def55-3782-4c01-8f05-6457f652ec91}">
@@ -339,6 +363,25 @@
 			<destination>{652d9314-e34a-4793-9ddf-2df6854b8179}</destination>
 		</relationship>
 	</object>
+	<object class="AutopitchModulator" id="{4e7f8510-5aea-4999-9042-2955327df9f7}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="root">
+			<value>0.810000002</value>
+		</property>
+		<property name="pitchAtMinimum">
+			<value>0.709999979</value>
+		</property>
+	</object>
+	<object class="FadeCurve" id="{cf1699c6-2f5f-45c3-8e8a-1d79378fb86f}">
+		<relationship name="startPoint">
+			<destination>{f96bcc72-ca9d-4294-be62-5b5455896256}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{68083f24-36ad-49b5-9449-ba7d0cf5ec38}</destination>
+		</relationship>
+	</object>
 	<object class="Automator" id="{8a737aa3-efe3-49e0-b9c4-a3db81681cb1}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
@@ -451,6 +494,28 @@
 			<value>1</value>
 		</property>
 	</object>
+	<object class="AutomationPoint" id="{f96bcc72-ca9d-4294-be62-5b5455896256}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.144743755</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{68083f24-36ad-49b5-9449-ba7d0cf5ec38}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="AutomationCurve" id="{7f121b19-ef79-45d5-91f2-7e92daec0f99}">
 		<relationship name="parameter">
 			<destination>{83cbb2a3-f858-439d-b4d5-153bf1659724}</destination>
@@ -490,7 +555,7 @@
 			<value>0.20000000000000001</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-4</value>
 		</property>
 		<property name="curveShape">
 			<value>0.301277518</value>
@@ -501,7 +566,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>10</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{cf422b01-5e8f-4693-9744-389d2c1883f6}">
@@ -509,7 +574,7 @@
 			<value>0.55000000000000004</value>
 		</property>
 		<property name="value">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<property name="curveShape">
 			<value>0.246437952</value>
