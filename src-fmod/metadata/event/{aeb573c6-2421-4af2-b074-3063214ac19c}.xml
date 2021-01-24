@@ -398,7 +398,7 @@
 			<value>86</value>
 		</property>
 		<property name="pitchAtMinimum">
-			<value>0.254999995</value>
+			<value>0.644999981</value>
 		</property>
 	</object>
 	<object class="FadeCurve" id="{7574c414-a264-41f2-9a03-d353aff043cf}">
@@ -479,12 +479,12 @@
 			<value>0</value>
 		</property>
 		<property name="curveShape">
-			<value>0.244523853</value>
+			<value>-0.165346131</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{e1b136f4-5ae1-4432-915d-8f3d96f328a7}">
 		<property name="position">
-			<value>175</value>
+			<value>182</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -498,12 +498,12 @@
 			<value>0</value>
 		</property>
 		<property name="curveShape">
-			<value>0.199216858</value>
+			<value>0.0349696539</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{37d63c2f-c5bc-4b64-924b-985605ed860b}">
 		<property name="position">
-			<value>185</value>
+			<value>174</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -594,7 +594,7 @@
 			<value>200</value>
 		</property>
 		<property name="value">
-			<value>-3</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{3dc0e432-bc24-49e5-9cd6-4884fd3deb40}">
@@ -616,7 +616,7 @@
 			<value>40</value>
 		</property>
 		<property name="value">
-			<value>-7</value>
+			<value>-6</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.246438071</value>
